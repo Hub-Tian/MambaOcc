@@ -41,11 +41,18 @@ pip install pycuda
 
 ```bash
 pip install lyft_dataset_sdk nuscenes-devkit
-pip install networkx==2.2 numba==0.53.0 numpy==1.23.5
 pip install plyfile scikit-image tensorboard trimesh==2.35.39
+pip install networkx==2.2 numba==0.53.0 numpy==1.23.5
 pip install setuptools==59.5.0 yapf==0.40.1
+pip install einops
+pip install triton timm==0.4.12 chardet yacs submitit tensorboardX fvcore seaborn
+pip install ipdb
+pip install mmengine==0.10.1
+cd VMamba
+cd kernels/selective_scan && pip install .
+cd ../../..
 cd ops_dcnv3
-pip setup.py install
+python setup.py install
 cd ..
 ```
 
@@ -92,7 +99,7 @@ MambaOcc/
         └── bevdetv2-nuscenes_infos_val.pkl (new)
 ```
 
-### Step 2. Prepare Occupancy Prediction Data
+### Step 2. Prepare Occupancy GT
 
 Download Occ3D-nuScenes occupancy GT from [gdrive](https://drive.google.com/file/d/1kiXVNSEi3UrNERPMz_CfiJXKkgts_5dY/view?usp=drive_link), unzip it, and save it to `data/nuscenes/gts`.
 
