@@ -1,4 +1,7 @@
 setup.py
+/root/data1/TianYL/bsl/MambaOcc/ops_dcnv3/src/vision.cpp
+/root/data1/TianYL/bsl/MambaOcc/ops_dcnv3/src/cpu/dcnv3_cpu.cpp
+/root/data1/TianYL/bsl/MambaOcc/ops_dcnv3/src/cuda/dcnv3_cuda.cu
 /root/data1/bsl/InternImage/classification/ops_dcnv3/src/vision.cpp
 /root/data1/bsl/InternImage/classification/ops_dcnv3/src/cpu/dcnv3_cpu.cpp
 /root/data1/bsl/InternImage/classification/ops_dcnv3/src/cuda/dcnv3_cuda.cu

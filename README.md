@@ -1,6 +1,6 @@
 ## Install
 
-This project follows the environment design of the original **FlashOcc** repository, with additional dependencies verified on our side. The following instructions are tested on **Ubuntu 20.04 / 22.04**, **CUDA 11.3–11.6**, and **PyTorch ≥1.10**.
+This project follows the environment design of the original [**FlashOcc**](https://github.com/Yzichen/FlashOCC) repository, with additional dependencies verified on our side. The following instructions are tested on **Ubuntu 20.04 / 22.04**, **CUDA 11.3–11.6**, and **PyTorch ≥1.10**.
 
 ### Step 1. Create and Activate Environment
 

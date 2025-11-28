@@ -15,6 +15,7 @@ ckpts
 mmdeploy
 mmdeploy_study
 data/
+data
 pretrained_model
 VMamba/
 *old*
